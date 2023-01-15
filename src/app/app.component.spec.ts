@@ -19,13 +19,13 @@ describe('AppComponent', () => {
   it(`should have as title 'Assesment-Employee-Management'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('Assesment-Employee-Management');
+    expect(app.title).toEqual('Assesment-EmployeeModel-Management');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('Assesment-Employee-Management app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('Assesment-EmployeeModel-Management app is running!');
   });
 });
